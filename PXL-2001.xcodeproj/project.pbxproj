@@ -15,6 +15,8 @@
 		034E804E1F97B56F000769B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034E804C1F97B56F000769B7 /* LaunchScreen.storyboard */; };
 		034E80591F97B56F000769B7 /* PXL_2001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E80581F97B56F000769B7 /* PXL_2001Tests.swift */; };
 		034E80641F97B56F000769B7 /* PXL_2001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E80631F97B56F000769B7 /* PXL_2001UITests.swift */; };
+		034E80D31F97C1C7000769B7 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034E80CE1F97C1BA000769B7 /* GPUImage.framework */; };
+		034E80D41F97C1D9000769B7 /* GPUImage.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 034E80CE1F97C1BA000769B7 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,66 @@
 			remoteGlobalIDString = 034E803D1F97B56F000769B7;
 			remoteInfo = "PXL-2001";
 		};
+		034E80C91F97C1BA000769B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CAB1C39A9D8006DF678;
+			remoteInfo = GPUImage_macOS;
+		};
+		034E80CB1F97C1BA000769B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6E7CB51C39A9D8006DF678;
+			remoteInfo = GPUImageTests_macOS;
+		};
+		034E80CD1F97C1BA000769B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34E91E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
+		034E80CF1F97C1BA000769B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9E34F11E524A2200B8604F;
+			remoteInfo = GPUImageTests_iOS;
+		};
+		034E80D11F97C1C3000769B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9E34E81E524A2200B8604F;
+			remoteInfo = GPUImage_iOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		034E80851F97B5C5000769B7 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				034E80D41F97C1D9000769B7 /* GPUImage.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034E80901F97BBA2000769B7 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		034E803E1F97B56F000769B7 /* PXL-2001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PXL-2001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +110,7 @@
 		034E805F1F97B56F000769B7 /* PXL-2001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PXL-2001UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034E80631F97B56F000769B7 /* PXL_2001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXL_2001UITests.swift; sourceTree = "<group>"; };
 		034E80651F97B56F000769B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../../testCode/GPUImage2/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034E80D31F97C1C7000769B7 /* GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +146,8 @@
 				034E80571F97B56F000769B7 /* PXL-2001Tests */,
 				034E80621F97B56F000769B7 /* PXL-2001UITests */,
 				034E803F1F97B56F000769B7 /* Products */,
+				034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */,
+				034E80821F97B5BA000769B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +193,24 @@
 			path = "PXL-2001UITests";
 			sourceTree = "<group>";
 		};
+		034E80821F97B5BA000769B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034E80C31F97C1BA000769B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034E80CA1F97C1BA000769B7 /* GPUImage.framework */,
+				034E80CC1F97C1BA000769B7 /* GPUImageTests_macOS.xctest */,
+				034E80CE1F97C1BA000769B7 /* GPUImage.framework */,
+				034E80D01F97C1BA000769B7 /* GPUImageTests_iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +221,13 @@
 				034E803A1F97B56F000769B7 /* Sources */,
 				034E803B1F97B56F000769B7 /* Frameworks */,
 				034E803C1F97B56F000769B7 /* Resources */,
+				034E80851F97B5C5000769B7 /* Copy Files */,
+				034E80901F97BBA2000769B7 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				034E80D21F97C1C3000769B7 /* PBXTargetDependency */,
 			);
 			name = "PXL-2001";
 			productName = "PXL-2001";
@@ -221,6 +307,12 @@
 			mainGroup = 034E80351F97B56F000769B7;
 			productRefGroup = 034E803F1F97B56F000769B7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 034E80C31F97C1BA000769B7 /* Products */;
+					ProjectRef = 034E80C21F97C1BA000769B7 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				034E803D1F97B56F000769B7 /* PXL-2001 */,
@@ -229,6 +321,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		034E80CA1F97C1BA000769B7 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 034E80C91F97C1BA000769B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		034E80CC1F97C1BA000769B7 /* GPUImageTests_macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_macOS.xctest;
+			remoteRef = 034E80CB1F97C1BA000769B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		034E80CE1F97C1BA000769B7 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 034E80CD1F97C1BA000769B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		034E80D01F97C1BA000769B7 /* GPUImageTests_iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests_iOS.xctest;
+			remoteRef = 034E80CF1F97C1BA000769B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		034E803C1F97B56F000769B7 /* Resources */ = {
@@ -296,6 +419,11 @@
 			isa = PBXTargetDependency;
 			target = 034E803D1F97B56F000769B7 /* PXL-2001 */;
 			targetProxy = 034E80601F97B56F000769B7 /* PBXContainerItemProxy */;
+		};
+		034E80D21F97C1C3000769B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage_iOS;
+			targetProxy = 034E80D11F97C1C3000769B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,12 +557,14 @@
 		034E80691F97B56F000769B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NUKB4DQN3;
+				DEVELOPMENT_TEAM = Y3QW8NK49W;
 				INFOPLIST_FILE = "PXL-2001/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuafingert.PXL-2001";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshua.PXL-2001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,12 +574,14 @@
 		034E806A1F97B56F000769B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NUKB4DQN3;
+				DEVELOPMENT_TEAM = Y3QW8NK49W;
 				INFOPLIST_FILE = "PXL-2001/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuafingert.PXL-2001";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshua.PXL-2001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

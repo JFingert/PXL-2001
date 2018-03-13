@@ -18,5 +18,13 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses Cameras</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses Library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>to record audio with video</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>&quot;Privacy - Photo Library Additions Usage Description”</string>
 </dict>
 </plist>
